@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Emagreça com Equilíbrio</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f4f4f4;
+color:#333;
+}
+
+header{
+background:#2e7d32;
+color:white;
+padding:60px 20px;
+text-align:center;
+}
+
+header h1{
+font-size:40px;
+}
+
+header p{
+margin-top:15px;
+font-size:18px;
+}
+
+.botao{
+display:inline-block;
+margin-top:25px;
+padding:15px 35px;
+background:#ff9800;
+color:white;
+text-decoration:none;
+font-size:20px;
+border-radius:8px;
+transition:.3s;
+}
+
+.botao:hover{
+background:#fb8c00;
+}
+
+section{
+max-width:1000px;
+margin:auto;
+padding:50px 20px;
+}
+
+.card{
+background:white;
+padding:25px;
+margin:20px 0;
+border-radius:10px;
+box-shadow:0 0 15px rgba(0,0,0,.1);
+}
+
+h2{
+color:#2e7d32;
+margin-bottom:20px;
+}
+
+ul{
+line-height:2;
+}
+
+#contador{
+font-size:40px;
+color:red;
+text-align:center;
+margin:30px;
+font-weight:bold;
+}
+
+.depoimento{
+background:#fff;
+padding:20px;
+border-left:5px solid #2e7d32;
+margin:20px 0;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:25px;
+margin-top:40px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Emagreça com Equilíbrio</h1>
+
+<p>Aprenda hábitos saudáveis para melhorar sua alimentação e qualidade de vida.</p>
+
+<a class="botao"<href="https://pay.kiwify.com.br/9XQMXUL">
+Comprar Agora
+</a>">
+Comprar Agora
+</a>
+
+</header>
+
+<div id="contador"></div>
+
+<section>
+
+<div class="card">
+
+<h2>O que você vai receber</h2>
+
+<ul>
+
+<li>📘 E-book em PDF</li>
+
+<li>🥗 Cardápios de exemplo</li>
+
+<li>🍽️ Receitas práticas</li>
+
+<li>🏃 Exercícios para iniciantes</li>
+
+<li>🛒 Lista de compras</li>
+
+<li>✅ Checklist de hábitos</li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>Por que escolher este guia?</h2>
+
+<p>
+Conteúdo educativo, organizado de forma simples para ajudar você a desenvolver hábitos saudáveis no dia a dia.
+</p>
+
+</div>
+
+<h2>Depoimentos</h2>
+
+<div class="depoimento">
+⭐⭐⭐⭐⭐<br>
+"Gostei das receitas e da organização do material."
+</div>
+
+<div class="depoimento">
+⭐⭐⭐⭐⭐<br>
+"O guia é fácil de acompanhar e me ajudou a criar uma rotina."
+</div>
+
+</section>
+
+<footer>
+
+<p>
+© 2026 Emagreça com Equilíbrio
+</p>
+
+</footer>
+
+<script>
+
+let tempo = 3600;
+
+setInterval(function(){
+
+let h = Math.floor(tempo/3600);
+
+let m = Math.floor((tempo%3600)/60);
+
+let s = tempo%60;
+
+document.getElementById("contador").innerHTML =
+"Oferta termina em: "+h+"h "+m+"m "+s+"s";
+
+if(tempo>0){
+tempo--;
+}
+
+},1000);
+
+</script>
+
+</body>
+</html>
